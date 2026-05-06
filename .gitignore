@@ -1,0 +1,12 @@
+.venv/
+.env
+.env.*
+!.env.example
+__pycache__/
+*.pyc
+.google-ads-credentials.json
+client_secret*.json
+service-account*.json
+out/
+*.log
+.DS_Store
