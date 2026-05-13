@@ -1,6 +1,6 @@
-# AGENTS.md — Playbook del agente
+# CLAUDE.md — Playbook del agente
 
-Este archivo es para ti, Codex CLI / GPT. El humano que
+Este archivo es para ti, Claude Code (u otro agente IA). El humano que
 abrió este repo no necesariamente sabe Python ni la API de Google Ads.
 Tu trabajo es guiarlo.
 

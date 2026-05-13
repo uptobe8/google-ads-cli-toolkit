@@ -19,7 +19,7 @@ Flujo recomendado:
 4. Vuelve a correr `python scripts/02_audit.py` para verificar que
    el cambio se aplicó.
 
-Si trabajas con Codex CLI, dile algo como: "Quiero apagar Search
+Si trabajas con Claude Code, dile algo como: "Quiero apagar Search
 Partners en mi campaña X. Edita `examples/fix_network_settings.py`
 con los valores correctos, muéstrame el script, y córrelo cuando te
 confirme."
@@ -36,7 +36,7 @@ confirme."
 
 Si tu caso no calza con ninguno de los ejemplos, puedes:
 
-- Pedirle a Codex CLI que te escriba un script nuevo en `scripts/`
+- Pedirle a Claude Code que te escriba un script nuevo en `scripts/`
   con el siguiente prefijo numérico (`03_`, `04_`, …), siguiendo el
   patrón de los existentes.
 - Hacer un fork y agregar tu ejemplo aquí. Pull requests son

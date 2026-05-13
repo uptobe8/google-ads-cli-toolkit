@@ -6,7 +6,7 @@ Cada receta tiene 4 partes:
 3. **Fix** — qué hacer.
 4. **Cómo aplicarlo** — script o paso manual.
 
-Si trabajas con Codex CLI, puedes pegarle el síntoma y pedirle que
+Si trabajas con Claude Code, puedes pegarle el síntoma y pedirle que
 identifique cuál de estas recetas aplica.
 
 ---
@@ -104,7 +104,7 @@ Dos opciones:
 - Ajustar el tCPA a un valor realista (cercano a tu CPA histórico).
 
 **Cómo aplicarlo**
-Pídele a Codex CLI que escriba un script `scripts/0X_fix_bidding.py`
+Pídele a Claude Code que escriba un script `scripts/0X_fix_bidding.py`
 basado en el patrón de [examples/fix_network_settings.py](../examples/fix_network_settings.py).
 La operación es un `CampaignOperation.update` sobre
 `campaign.maximize_conversions.target_cpa_micros`. Si quieres
@@ -156,7 +156,7 @@ atribuibles al click original.
 Subir el `click_through_lookback_window_days` a 60 o 90.
 
 **Cómo aplicarlo**
-Pídele a Codex CLI que escriba un script `scripts/0X_extend_lookback.py`.
+Pídele a Claude Code que escriba un script `scripts/0X_extend_lookback.py`.
 La operación es:
 
 ```python
@@ -198,5 +198,5 @@ Llena `NEGATIVE_KEYWORDS_PHRASE` y/o `NEGATIVE_KEYWORDS_EXACT`.
 
 ## ¿No encuentras tu caso?
 
-Pásale a Codex CLI el output del audit y describe el síntoma. Te
+Pásale a Claude Code el output del audit y describe el síntoma. Te
 puede armar el script a medida o sugerir el fix manual desde la UI.

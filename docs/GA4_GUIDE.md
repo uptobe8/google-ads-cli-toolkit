@@ -107,7 +107,7 @@ esta auditoría en GA4 cuanto antes.
    (Está comentada en `requirements.txt`; descoméntala si vas a usar
    esta sección.)
 
-### Recipes que puedes pedirle a Codex CLI
+### Recipes que puedes pedirle a Claude Code
 
 - "Lista los 20 eventos más frecuentes en mi propiedad GA4 los
   últimos 30 días, con su conteo."
@@ -145,7 +145,7 @@ for row in resp.rows:
     print(f"{event:40s} {count}")
 ```
 
-Si te funciona ese snippet básico, pídele a Codex CLI que escriba
+Si te funciona ese snippet básico, pídele a Claude Code que escriba
 recipes más complejos en función de tu caso.
 
 ---
@@ -167,7 +167,7 @@ Recipes típicos:
 - "Verifica si la vinculación con Google Ads existe y a qué cuenta
   apunta".
 
-Pídele a Codex CLI que arme cada recipe con la API de Admin —
+Pídele a Claude Code que arme cada recipe con la API de Admin —
 sigue el mismo patrón que el snippet del Data API.
 
 ---

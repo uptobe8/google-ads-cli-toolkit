@@ -130,7 +130,7 @@ variables programáticamente. Útil para:
    GTM_CONTAINER_ID=...
    ```
 
-### Recipes que puedes pedirle a Codex CLI
+### Recipes que puedes pedirle a Claude Code
 
 - "Lista todos los tags de mi container GTM y dame un resumen".
 - "Exporta mi container a JSON y guárdalo en `out/gtm-snapshot-FECHA.json`".
@@ -138,7 +138,7 @@ variables programáticamente. Útil para:
   por nombre".
 - "Crea un trigger nuevo de tipo Form Submission con esta condición..."
 
-Codex puede escribir scripts contra la API directamente. Apóyalo con
+Claude puede escribir scripts contra la API directamente. Apóyalo con
 la documentación oficial:
 
 - API reference: https://developers.google.com/tag-manager/api/v2
@@ -171,5 +171,5 @@ for acct in accounts.get("account", []):
 (Requiere `pip install google-api-python-client google-auth` — descomentar
 las líneas correspondientes en `requirements.txt`.)
 
-Si necesitas más, pídele a Codex CLI que arme un script completo con
+Si necesitas más, pídele a Claude Code que arme un script completo con
 el caso específico.

@@ -1,7 +1,7 @@
 # Setup detallado — Google Ads API
 
 Walkthrough completo para conectar este toolkit a tu cuenta de Google
-Ads. Si en cualquier paso te atascas, abre Codex CLI en el folder y
+Ads. Si en cualquier paso te atascas, abre Claude Code en el folder y
 pídele ayuda — está diseñado para guiarte.
 
 **Tiempo total:** ~30 min de tu lado + 24-72h de espera para que Google
@@ -164,7 +164,7 @@ Deberías ver:
 - Todas tus conversion actions con su estado.
 
 Si lo ves: **listo. El acceso programático funciona.** Comparte el
-output con Codex CLI para empezar el diagnóstico.
+output con Claude Code para empezar el diagnóstico.
 
 ---
 
@@ -198,5 +198,5 @@ output con Codex CLI para empezar el diagnóstico.
 
 ### Cualquier otro error
 
-Pásale el mensaje completo a Codex CLI en el chat. Lo más probable
+Pásale el mensaje completo a Claude Code en el chat. Lo más probable
 es que sepa qué pasa y te dé el fix.
