@@ -1,8 +1,0 @@
-google-ads>=24.0.0
-python-dotenv>=1.0.0
-requests>=2.31.0
-
-# Opcionales — sólo si vas a usar los recipes de GA4 / GTM API:
-# google-analytics-data>=0.18.0
-# google-api-python-client>=2.100.0
-# google-auth>=2.20.0
