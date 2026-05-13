@@ -1,0 +1,35 @@
+{
+  "name": "google-ads-cli-toolkit-gpt",
+  "image": "mcr.microsoft.com/devcontainers/python:3.12-bookworm",
+  "features": {
+    "ghcr.io/devcontainers/features/node:1": {
+      "version": "lts"
+    }
+  },
+  "postCreateCommand": "python -m venv .venv && . .venv/bin/activate && pip install --upgrade pip && pip install -r requirements.txt && npm install -g @openai/codex",
+  "customizations": {
+    "vscode": {
+      "extensions": ["ms-python.python"]
+    }
+  },
+  "secrets": {
+    "GOOGLE_ADS_DEVELOPER_TOKEN": {
+      "description": "Developer Token de Google Ads API obtenido desde el API Center del MCC."
+    },
+    "GOOGLE_ADS_CLIENT_ID": {
+      "description": "OAuth Client ID de Google Cloud Console."
+    },
+    "GOOGLE_ADS_CLIENT_SECRET": {
+      "description": "OAuth Client Secret de Google Cloud Console."
+    },
+    "GOOGLE_ADS_REFRESH_TOKEN": {
+      "description": "Refresh token OAuth con scope https://www.googleapis.com/auth/adwords."
+    },
+    "GOOGLE_ADS_LOGIN_CUSTOMER_ID": {
+      "description": "ID de la cuenta MCC / Manager, sin guiones."
+    },
+    "GOOGLE_ADS_CUSTOMER_ID": {
+      "description": "ID de la cuenta cliente de Google Ads, sin guiones."
+    }
+  }
+}
